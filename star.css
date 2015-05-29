@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+}
+
+.container{
+    /*background-color: red;*/
+}
+
+
+.den{
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    border: 30px;
+    display: block;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: grey;*/
+    width: 400px;
+    margin-top: 60px;
+}
+
+/*footer*/
+
+.den_footer{
+    margin-top: 190px;
+
+
+}
+
+.fuse_logo{
+    display: inline-block;
+    height: 26px;
+    width: 60px;
+}
+
+.first_text, .support_text {
+    display: inline-block;
+    height: 50px;
+    color: #007197;
+    font-family: helvetica;
+    font-size: 18px;
+}
+
+.icons {
+    display: inline-block;
+    height: 30px;
+    padding: 20px;
+    border-right: solid 2px #009cb4; 
+}
+
+.app_icon{
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.part1, .part2{
+    display: inline-block;
+}
+
+a:link{
+    color: #009cb4;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #007197;
+    text-decoration: none;
+}
+
+
+
+a:visited{
+    color: #009cb4;
+    text-decoration: none;
+}
+
+.part1{
+    margin-left: 300px;
+    margin-right: 20px;
+}
+
+
+
+/*-------------default CSS-----------------*/
+
+.button {
+    border-radius: 25px;
+    background-color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    color: #0291AB;
+    border: none;
+    padding: 5px 7px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.l-top {
+    height: 120px;
+    /* [disabled]background: #66675d; */
+}
+.l-top .h-top {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+.l-top h1.logo {
+    background: url(/assets/sign-up/logo-small.png) no-repeat left center;
+    text-indent: -99999px;
+    width: 111px;
+    height: 43px;.login-form a
+}
+.l-top .input {
+    display: inline;
+}
+.l-top .b-logo {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 460px;
+}
+.l-top .b-login-form {
+    display: inline;
+    float: left;
+    margin-left: 35%;
+    margin-right: 10px;
+    width: 460px;
+}
+
+.b-simple-form {
+    margin-top: 0.6em;
+    margin-bottom: 0.17em;
+    margin: 60px 49px;
+    width: 274px;
+    height: 170px;
+    background-color:#0291AB;
+    padding: 27px 20px 50px 20px;
+    border-radius: 27px;
+    border: 4px solid white;
+    font-family: helvetica;
+    color: white;
+}
+
+.b-simple-form .columns {
+    zoom: 1;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    /* Hides from IE5/Mac \*/
+    /* End hide from IE5/Mac */
+    margin-bottom: 1em;
+}
+.b-simple-form .columns:before, .b-simple-form .columns:after {
+    content: "";
+    display: table;
+}
+.b-simple-form .columns:after {
+    clear: both;
+}
+.b-simple-form .columns {
+    *display: inline;
+}
+* html .b-simple-form .columns {
+    height: 1px;
+}
+.b-simple-form .columns {
+    display: block;
+}
+.b-simple-form .col1 {
+    float: left;
+    width: 360px;
+}
+.b-simple-form .col2 {
+    float: right;
+    width: 360px;
+}
+.b-simple-form fieldset {
+    border: 1px solid #d5d5d5;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 20px 15px;
+    margin-bottom: 20px;
+}
+.b-simple-form legend {
+    color: #888;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+.b-simple-form textarea {
+    line-height: 18px;
+}
+.b-simple-form .input {
+    margin-bottom: 15px;
+}
+.b-simple-form .actions {
+    text-align: right;
+}
+.b-simple-form .boolean input, .b-simple-form .boolean label {
+    vertical-align: middle;
+}
+.b-simple-form .boolean input {
+    margin-left: 1px;
+}
+.b-simple-form .boolean label {
+    padding-top: 1px;
+}
+.b-simple-form div.file,
+.b-simple-form div.password,
+.b-simple-form div.string,
+.b-simple-form div.email,
+.b-simple-form div.text,
+.b-simple-form div.boolean {
+    margin: 2px 0;
+}
+.b-simple-form .file:disabled,
+.b-simple-form .password:disabled,
+.b-simple-form .string:disabled,
+.b-simple-form .email:disabled,
+.b-simple-form .text:disabled {
+    color: #ccc;
+}
+.b-simple-form .file label,
+.b-simple-form .password label,
+.b-simple-form .string label,
+.b-simple-form .email label,
+.b-simple-form .text label {
+    display: block;
+    margin-bottom: 0.4em;
+}
+.b-simple-form .radio label.radio {
+    display: block;
+    margin-bottom: 0.4em;
+}
+.b-simple-form .radio span label {
+    margin-right: 1em;
+    padding-left: 0.2em;
+}
+.b-simple-form .password input,
+.b-simple-form .password textarea,
+.b-simple-form .string input,
+.b-simple-form .string textarea,
+.b-simple-form .email input,
+.b-simple-form .email textarea,
+.b-simple-form .text input,
+.b-simple-form .text textarea {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(top, #f2f2f2, #ffffff);
+    background: -moz-linear-gradient(top, #f2f2f2, #ffffff);
+    background: -o-linear-gradient(top, #f2f2f2, #ffffff);
+    background: -ms-linear-gradient(top, #f2f2f2, #ffffff);
+    background: linear-gradient(top, #f2f2f2, #ffffff);
+    border: 1px solid #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px;
+    -o-box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px;
+    font-size: 14px;
+    outline: none;
+    padding: 10px;
+    width: 296px;
+}
+.b-simple-form .password input:focus,
+.b-simple-form .password textarea:focus,
+.b-simple-form .string input:focus,
+.b-simple-form .string textarea:focus,
+.b-simple-form .email input:focus,
+.b-simple-form .email textarea:focus,
+.b-simple-form .text input:focus,
+.b-simple-form .text textarea:focus {
+    background: #fbfee9;
+}
+.b-simple-form .password textarea,
+.b-simple-form .string textarea,
+.b-simple-form .email textarea,
+.b-simple-form .text textarea {
+    height: 8em;
+}
+.b-simple-form label {
+    cursor: pointer;
+}
+.b-simple-form .login-input input, .b-simple-form .email-address-input input {
+    width: 254px;
+    padding: 7px;
+    border:0;
+    color: #0291AB;
+    margin-bottom: 3px;
+}
+.b-simple-form div.login-input {
+    width: 180px;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    margin-right: 7px;
+}
+.b-simple-form div.login-input {
+    *display: inline;
+}
+.b-simple-form .login-input, .b-simple-form .button {
+    vertical-align: middle;
+    width: 90px;
+    padding-bottom: 7px;
+    display: block;
+}
+.b-simple-form .button {
+    cursor: pointer;
+}
+.b-simple-form .email-address-input {
+    zoom: 1;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    /* Hides from IE5/Mac \*/
+    /* End hide from IE5/Mac */
+}
+.b-simple-form .email-address-input:before, .b-simple-form .email-address-input:after {
+    content: "";
+    display: table;
+}
+.b-simple-form .email-address-input:after {
+    clear: both;
+}
+.b-simple-form .email-address-input {
+    *display: inline;
+}
+* html .b-simple-form .email-address-input {
+    height: 1px;
+}
+.b-simple-form .email-address-input {
+    display: block;
+}
+.b-simple-form .email-address-input label, .b-simple-form .email-address-input input {
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    margin-right: 15px;
+}
+.b-simple-form .email-address-input label, .b-simple-form .email-address-input input {
+    *display: inline;
+}
+.b-simple-form .email-address-input label {
+    padding-top: 5px;
+}
+.b-simple-form .reset-password-button {
+    zoom: 1;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    /* Hides from IE5/Mac \*/
+    /* End hide from IE5/Mac */
+}
+.b-simple-form .reset-password-button:before, .b-simple-form .reset-password-button:after {
+    content: "";
+    display: table;
+}
+.b-simple-form .reset-password-button:after {
+    clear: both;
+}
+.b-simple-form .reset-password-button {
+    *display: inline;
+}
+* html .b-simple-form .reset-password-button {
+    height: 1px;
+}
+.b-simple-form .reset-password-button {
+    display: block;
+}
+.b-simple-form .reset-password-button input {
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.login-form .input-with-label {
+    width: 270px;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+}
+.login-form .input-with-label {
+    *display: inline;
+}
+.login-form .input-with-label input, .login-form .input-with-label label {
+    vertical-align: middle;
+}
+.login-form .input-with-label label {
+    padding-top: 1px;
+}
+
+.input-with-label input {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+@inclide inline-block;
+    vertical-align: middle;
+}
+
+.login-form a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+}
+
+.company-logo {
+    position: relative;
+    top: 15px;
+}
+
+.l-center {
+    height: 350px;
+    background: url(/assets/sign-up/center-bg.png) repeat-x left center;
+    color: #66675d;
+}
+.l-center .h-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+.l-center .sample-image {
+    position: absolute;
+    top: 435px;
+    height: 306px;
+    width: 342px;
+    height: 306px;
+    left: 306px;
+}
+.l-center .b-description {
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 460px;
+    color: #000;
+}
+.l-center .b-description h4 {
+    margin: 125px 10px 0;
+    -moz-border-end-color: #FFF;
+}
+
+.b-lists .h-list {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 220px;
+}
+.b-lists .h-list:first-child {
+    margin-left: 0;
+}
+.b-lists .h-list:last-child {
+    margin-right: 0;
+}
+.b-lists ul {
+    margin: 5px 10px;
+    padding: 0 25px;
+    list-style-image: url(/assets/sign-up/arrows.png);
+}
+.b-lists ul li {
+    margin: 10px 0;
+}
+
+.b-page-content {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 460px;
+}
+
+.l-bottom {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    color: #000;
+}
+.l-bottom .h-bottom {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 940px;
+}
+.l-bottom h5 {
+    margin: 10px 0;
+}
+.l-bottom h5 a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
+}
+
+.b-page-content .input.string {
+    margin: 10px 0;
+}
+.b-page-content .input.string input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B4B4B4;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 7px;
+    width: 260px;
+    -moz-box-shadow: inset 0 0 5px #ccc;
+    -webkit-box-shadow: inset 0 0 5px #ccc;
+    box-shadow: inset 0 0 5px #ccc;
+}
+.b-page-content .input.string label {
+    display: inline-block;
+    line-height: 1.2em;
+    vertical-align: middle;
+    width: 90px;
+}
+.b-page-content span.error {
+    display: block;
+    font-size: 10px;
+    padding-left: 90px;
+    color: #ff1820;
+}
+.b-page-content div.field_with_errors .input.string input {
+    border: 1px solid #FF1820 !important;
+}
+.b-page-content div.field_with_errors .input.string {
+    margin-top: 5px;
+}
+.b-page-content .actions {
+    text-align: left;
+}
+.b-page-content .actions input#user_submit {
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+label.password[for="user_password"] {
+  text-decoration: underline;
+}
+
+.b-password-requirements {
+  background: #333333;
+  padding: 5px;
+}
+.l-center .h-center .b-description h4 {
+    color: #66675d;
+    font-size: 12px;
+}
+.description-bold {
+    font-weight: bold;
+}
+.l-center .h-center .b-description {
+    color: #66675d;
+    line-height: 20px;
+}
+.desciption-bold {
+    font-weight: bold;
+}
+.description-bold {
+    font-weight: bold;
+}
+
+.description-2 {
+    text-align: right;
+}
+.l-center .h-center .b-description p-right {
+    text-align: right;
+}
+.description2 {
+    text-align: right;
+}
+
+
+@media ( max-width: 1280px){ /*laptop*/
+    img.equal {
+        width: 200px;
+        padding-top: 40px;
+}
+
+.first_text, .support_text{
+    font-size: 16px;
+}
+
+.fuse_logo {
+    height: 23px;
+    width: 54px;
+}
+
+.app_icon {
+    width: 119px;
+    height: 38px;
+}
+
+.icons {
+    height: 20px;
+}
+
+.support_text {
+    font-size: 16px;
+}
+
+footer {
+    left: 12%;
+    bottom: 20px;
+    position: relative;
+}
+
+.b-simple-form {
+    margin: 49px;
+    font-family: helvetica;
+    color:white;
+
+
+}
+
+.first_text{
+    margin-left: 0;
+}
+
+.group {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+

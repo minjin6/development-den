@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+}
+
+body {
+	width: 700px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 100%
+}
+
+.strips {
+	display: block;
+	margin-bottom: 10px;
+	width: 700px;
+	height: 174px;
+}
+
+p {
+	font-size: 0.875em;
+	margin-left: 20px;
+	width: 90%;
+	color: #464646;
+}
+
+.caption {
+	color: #007298;
+}
